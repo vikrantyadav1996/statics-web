@@ -2,9 +2,9 @@ pipeline {
     agent any
 
     environment {
-        AWS_REGION = 'us-east-1'
+        AWS_REGION = 'eu-north-1'
         AWS_ACCOUNT_ID = '168126498869'    // Replace with your AWS account ID
-        ECR_REPO = 'static-website'
+        ECR_REPO = 'static-web'
         IMAGE_TAG = 'latest'
         ECR_URL = "168126498869.dkr.ecr.eu-north-1.amazonaws.com/static-web"
     }
