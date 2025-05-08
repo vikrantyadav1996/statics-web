@@ -6,7 +6,7 @@ pipeline {
         AWS_ACCOUNT_ID = '168126498869'    // Replace with your AWS account ID
         ECR_REPO = 'static-website'
         IMAGE_TAG = 'latest'
-        ECR_URL = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_REGION}.amazonaws.com/${ECR_REPO}"
+        ECR_URL = "168126498869.dkr.ecr.eu-north-1.amazonaws.com/static-web"
     }
 
     stages {
